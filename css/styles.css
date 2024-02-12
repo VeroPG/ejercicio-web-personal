@@ -1,0 +1,155 @@
+:root {
+  --main-aqua: #52e2cd;
+  --main-gray: #435058;
+  --main-blue: #0a1930;
+  --light-gray: #c8c8c8;
+  --medium-gray: #8891ad;
+  --light-aqua: #a6ece0;
+  --white-smoke: #f1f2ee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_container,
+.header {
+  background-color: var(--main-blue);
+}
+.header {
+  height: 15vh;
+}
+
+.main_container {
+  height: 73vh;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 5rem;
+}
+
+.nav-link {
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--medium-gray);
+}
+
+.nav-link > span {
+  color: var(--main-aqua);
+}
+
+.nav-link:hover {
+  color: var(--main-aqua);
+}
+
+.nav-logo > img {
+  width: 4rem;
+}
+
+.hello > p {
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.6rem;
+  color: var(--main-aqua);
+}
+.hello > h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 4em;
+  font-style: normal;
+  color: var(--white-smoke);
+}
+.hello > h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3em;
+  font-style: normal;
+  color: var(--medium-gray);
+}
+.hello_text {
+  width: 60%;
+}
+.hello_text > p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  font-stretch: condensed;
+  font-style: normal;
+  color: var(--medium-gray);
+}
+
+.hello_text > button {
+  border-color: #52e2cd;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  color: var(--main-aqua);
+  padding: 1%;
+  cursor: pointer;
+}
+footer {
+  height: 10vh;
+}
+.footer_1 {
+  display: flex;
+  align-items: center;
+}
+.footer_1 > ul {
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_1 > ul > li {
+  margin: auto;
+  display: inline;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 1rem;
+}
+
+.fa {
+  color: var(--main-blue);
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.footer_2 {
+  font-family: "Poppins", sans-serif;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  background: var(--medium-gray);
+  color: var(--white-smoke);
+  display: flex;
+  justify-content: center;
+  gap: 0.2rem;
+}

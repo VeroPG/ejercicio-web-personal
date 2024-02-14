@@ -237,7 +237,7 @@ input {
   height: 40px;
   border-radius: 5px;
   border: 1px solid var(--main-aqua);
-  margin-top: 3%;
+  margin-top: 1%;
 }
 textarea {
   background-color: #fbfbfb;
@@ -258,4 +258,57 @@ textarea {
   border-radius: 10px;
   width: 420px;
   cursor: pointer;
+}
+
+/* ESTILOS CONTACTO */
+
+.about_container {
+  height: 73vh;
+  padding-left: 12vw;
+  margin: auto;
+  background-color: var(--main-blue);
+  display: flex;
+}
+
+.about {
+  width: 70%;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills {
+  width: 70%;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.about > figure > img {
+  height: 40vh;
+}
+
+.skills > figure > img {
+  width: 35vh;
+}
+
+.about_text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: var(--light-gray);
+  padding: 10%;
+}
+
+.skills_text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: var(--light-gray);
+  padding: 10%;
+}
+.skills_text > p,
+.about_text > p {
+  line-height: 1.6;
 }
